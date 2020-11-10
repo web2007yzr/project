@@ -1,0 +1,105 @@
+body{
+	font-family: 'Inter', sans-serif;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+	content: " ";
+}
+
+.carousel-indicators li {
+	width: .8rem;
+	height: .8rem;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 0px 0.25rem;
+}
+
+.carousel-indicators .active {
+	background-color: #0aa1ed;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	width: 4%;
+	height: 20%;
+	top: 40%;
+	border-radius: .25rem;
+	background-color: #aaa;
+}
+
+.carousel-control-next {
+	right: 5px;
+}
+
+.carousel-control-prev {
+	left: 5px;
+}
+
+.threefloor_one{
+	position: absolute;
+	top: 15%;
+}
+.threefloor_one h6{
+	font-size: 18px;
+	line-height: 28px;
+}
+.threefloor_one h3{
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+.threeproduct>div:first-child img:hover,.threeproduct>div:nth-child(2) img:hover,.threeproduct>div:last-child img:hover{
+	transition:1s;
+	transform: scale(1.1);
+	z-index: 3;
+}
+
+.newproduct{
+	font-size: 36px;
+	line-height: 50px;
+}
+
+.wenzi{
+	font-size: 16px;
+	font-weight: 600;
+	color: #999;
+	margin: 0 25px;
+}
+.text1{
+	font-size: 11px;
+	    color: #fff;
+	    background: #80b435;
+	    text-transform: uppercase;
+	    padding: 0px 10px;
+	    text-align: center;
+	    display: block;
+	    position: absolute;
+	    right: 18px;
+	    top: 15px;
+	    font-weight: 500;
+	    height: 24px;
+	    border-radius: 3px 0px 0px 3px;
+	    line-height: 26px;
+	    z-index: 10;
+	    letter-spacing: 0.5px;
+}
+.text2{
+	font-size: 11px;
+	    color: #fff;
+	    background: #FF9F00;
+	    text-transform: uppercase;
+	    padding: 0px 10px;
+	    text-align: center;
+	    display: block;
+	    position: absolute;
+	    left: 18px;
+	    top: 15px;
+	    font-weight: 500;
+	    height: 22px;
+	    border-radius: 0px 3px 3px 0px;
+	    line-height: 24px;
+	    z-index: 10;
+	    letter-spacing: 0.5px;
+	}
+}
